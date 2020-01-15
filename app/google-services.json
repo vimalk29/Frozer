@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "950635361607",
+    "firebase_url": "https://frozer-a4b04.firebaseio.com",
+    "project_id": "frozer-a4b04",
+    "storage_bucket": "frozer-a4b04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950635361607:android:249afbbcf7bb61414d0862",
+        "android_client_info": {
+          "package_name": "com.kumawat.frozer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950635361607-s6o6sts0lptbrchmrhbe5mf34k5umnht.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kumawat.frozer",
+            "certificate_hash": "e00a5d8a5d82cda0a31d317a4453784d613d5d3c"
+          }
+        },
+        {
+          "client_id": "950635361607-uoaq519frfgun9f9e7qeqtko8s8dufsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0wzxOlS0XFXvFHSlxR-ysIHgvlk3YQoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950635361607-uoaq519frfgun9f9e7qeqtko8s8dufsv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/orderNo"
+        android:text="1"
+        android:textSize="24sp"
+        android:layout_centerVertical="true"
+        android:paddingEnd="20dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/amount"
+        android:text="Amount"
+        android:layout_toEndOf="@id/orderNo"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/place"
+        android:text="PLace"
+        android:layout_toEndOf="@id/orderNo"
+        android:layout_below="@id/amount"
+        android:textSize="16sp"
+        android:textColor="@color/grey"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/editButton"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_edit"
+        android:backgroundTint="@color/black"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+</RelativeLayout>
